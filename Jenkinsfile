@@ -8,7 +8,7 @@ node{
     sh '''
     ls
     pwd
-    docker build -t rddevops5/my-app:2.0.0 .
+    docker build -t rddevops5/webapp:2.0.0 .
     '''
    }
 }
