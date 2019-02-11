@@ -1,10 +1,5 @@
 node{
-        stage('checkout'){
-    sh '''
-   git 'https://github.com/rddevops5/javahometech.git'
-
-    '''
-   }
+        
         stage('Build'){
     sh '''
     mvn clean package
